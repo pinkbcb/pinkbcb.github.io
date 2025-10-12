@@ -155,3 +155,54 @@ footer a {
     padding: 0.5rem 1rem;
   }
 }
+
+
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.project {
+  position: relative;
+  width: 32%;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.project:hover img {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  color: #fff;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 700px) {
+  .project {
+    width: 100%;
+  }
+}
