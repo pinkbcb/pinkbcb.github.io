@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+header {
+  text-align: center;
+  background: white;
+  border-bottom: 3px solid #0078d4;
+  padding-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #0078d4;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #0078d4;
+  display: inline-block;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.button {
+  background: #0078d4;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.button:hover {
+  background: #005ea8;
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  gap: 10px;
+}
+
+.project-gallery img {
+  width: 32%;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h3 {
+  color: #0078d4;
+  margin-bottom: 0.8rem;
+}
+
+footer {
+  background: #0078d4;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .project-gallery img {
+    width: 100%;
+  }
+
+  .banner-text {
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+  }
+}
