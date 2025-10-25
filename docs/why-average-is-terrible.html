@@ -26,11 +26,47 @@
   </header>
 
   <main class="container blog-post-page">
-    <h2>Why “Average” Is a Terrible Summary</h2>
+    <h2>The Myth of the Average: Why the Mean Does Not Always Tell the Truth</h2>
 
-    <p>“The average income is $75,000.” Sounds good, right? But what if half the population earns under $40,000 while a few outliers make millions? Suddenly that average doesn’t mean much. The mean can hide inequality and distort understanding — especially in skewed distributions. In many real-world datasets, the median tells a more truthful story about the “typical” experience.</p>
+    <p>“The average income is $75,000.”</p>
 
-    <p>As data scientists, it’s our job to question whether the summary statistics we report actually represent the story our data tells. Whenever possible, include context: show the spread, visualize the distribution, and mention outliers. “Average” is a starting point — not the conclusion. The best analysis moves beyond single numbers and captures the complexity of the underlying data.</p>
+    <p>That sounds pretty good at first. It gives the impression that most people are doing okay. But what if half the population makes under $40,000 while a few people at the top make millions? Suddenly that average does not mean much anymore. The mean can hide inequality and make things look better or worse than they really are, especially when the data is uneven.</p>
+
+    <p>In real life, data is rarely balanced. Income, housing prices, medical wait times, even how many likes a post gets online, all tend to have a few really high numbers that pull the average up. When that happens, the mean can give the wrong impression of what is normal. That is where the median can be a better way to understand what is typical.</p>
+
+    <h3>When the Mean Misleads</h3>
+
+    <p>Here is a simple example. Imagine a small town of ten people. Nine of them make $40,000 a year, and one person makes $1 million.</p>
+
+    <p>If you calculate the mean, it comes out to $136,000. That makes it sound like most people are doing great financially. But in reality, almost everyone earns $40,000. The median income, which is the middle value, is $40,000. That number tells a much more honest story about what people actually make.</p>
+
+    <p>The same thing happens in other situations. A hospital might say the average emergency room wait time is 30 minutes, but that could mean some people get in right away while others wait an hour or more. A company might report an average employee tenure of eight years, even if most people leave after two. A few long term employees can make the average seem higher than what most experience.</p>
+
+    <p>These examples remind us that the mean can be helpful, but it is also very sensitive to outliers. The median gives us a more realistic look at what is typical.</p>
+
+    <h3>Why Context Matters</h3>
+
+    <p>A single number can never tell the full story. Reporting only the average hides how spread out the data really is. That is why it is important to include more context whenever we can.</p>
+
+    <p>Instead of stopping at the mean, try adding other details. The median shows the middle of the data. The range or interquartile range shows how far apart values are. Standard deviation helps describe how tightly data points cluster together. Visualizations like histograms or boxplots can make patterns clear right away.</p>
+
+    <p>For example, two companies might both say their average salary is $75,000. But one company could have everyone making about that much, while the other might have a few executives making hundreds of thousands and many workers making far less. Those are very different stories, and you would not know it just by looking at the mean.</p>
+
+    <h3>Why It Matters</h3>
+
+    <p>Averages are powerful because they shape how people think. Governments use them to make policies, businesses use them to plan, and news stories often rely on them to make a point. But when those averages leave out important details, the result can be misleading.</p>
+
+    <p>That is why we need to pause and ask questions. Is the data skewed? Does the mean really describe what most people experience? Would the median tell a more accurate story? Are there outliers that change how we should read the results?</p>
+
+    <p>Asking these questions turns numbers into understanding. It helps us see what is really going on instead of just what looks neat on paper.</p>
+
+    <h3>The Data Scientist’s Responsibility</h3>
+
+    <p>Our job is not just to summarize data but to communicate it honestly. The mean is a useful starting point, but it is rarely the whole picture. When we share results, we should include the median, explain the spread, and visualize the distribution so people can see the full story for themselves.</p>
+
+    <p>“Average” should never be the end of the analysis. The best work digs deeper and captures the complexity of real life.</p>
+
+    <p>In the end, being honest with data is about more than getting the math right. It is about helping others understand the truth behind the numbers.</p>
 
     <div class="back-link">
       <a href="index.html#blog">← Back to Home</a>
