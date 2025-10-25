@@ -1,6 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Lie with Charts — Bethany Owen</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
 
-How to Lie with Charts (and How to Spot It)
+<body>
+  <header>
+    <div class="container header-container">
+      <a href="index.html">
+        <img src="images/Headshot.jpeg" alt="Bethany Owen" class="profile-pic" />
+      </a>
+      <h1><a href="index.html" class="home-link">Bethany Owen</a></h1>
+      <p class="subtitle">Data Analyst | Problem Solver | Lifelong Learner</p>
+      <nav>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects & Resume</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-Data visualization is one of the most powerful tools in a data scientist’s toolkit — but it’s also one of the easiest to misuse. From manipulated axes to cherry-picked samples, misleading charts can make almost any conclusion seem “data-driven.” One classic example is truncating the y-axis to exaggerate differences that aren’t statistically meaningful. It’s not always malicious — sometimes it’s just poor design or lack of context — but the effect is the same: distorted interpretation.
+  <main class="container blog-post-page">
+    <h2>How to Lie with Charts (and How to Spot It)</h2>
 
-The fix starts with transparency and literacy. Clear labeling, consistent scales, and annotated context help audiences understand what the numbers truly represent. Likewise, analysts must challenge their own biases. A graph isn’t just decoration — it’s an argument. As professionals, our job is to make that argument honest, reproducible, and clear. Learning to spot (and avoid) visual manipulation is a crucial part of ethical analytics.
+    <p>Data visualization is one of the most powerful tools in a data scientist’s toolkit — but it’s also one of the easiest to misuse. A well-designed chart can clarify complex information in seconds, while a misleading one can send an audience down the wrong path entirely. Whether intentional or accidental, the way data is visualized has a huge influence on what people believe to be true.</p>
+
+    <p>You’ve probably seen this in action. Maybe it was a chart on social media showing crime rates “skyrocketing” — but when you looked closer, the y-axis started at 95 instead of 0, making a small increase look catastrophic. Or perhaps a company boasted about doubling its market share, but the chart left out the context that they went from 1% to 2%. These tricks are subtle, but they shape perception.</p>
+
+    <h3>The Subtle Art of Misleading Charts</h3>
+    <p>Misleading charts aren’t always created with bad intentions. Sometimes they stem from poor design choices or a lack of statistical understanding. But regardless of intent, the effect is the same — the audience walks away misinformed.</p>
+
+    <p>Here are a few of the most common ways charts can mislead:</p>
+    <ul>
+      <li><strong>Truncated Axes:</strong> Cutting off the y-axis so small differences appear enormous. For example, a bar chart showing profits rising from $100,000 to $102,000 might look dramatic if the axis starts at $99,000. The visual suggests massive growth, but the actual change is just 2%.</li>
+      <li><strong>Cherry-Picked Time Frames:</strong> Showing only a short window of time can completely change a story. A stock chart might show a steep decline if you focus on one bad week, but zoom out to a year and it looks stable.</li>
+      <li><strong>Inconsistent Scales or Dual Axes:</strong> Using different scales can create artificial relationships between unrelated variables.</li>
+      <li><strong>Selective Sampling:</strong> Leaving out certain data points or groups can skew interpretation.</li>
+      <li><strong>3D Effects and Decorative Distortion:</strong> Fancy 3D graphics might look appealing, but they distort perception and make comparisons unreliable.</li>
+    </ul>
+
+    <h3>Why It Matters</h3>
+    <p>These tricks matter because people trust visuals. Studies show that audiences remember and believe charts more readily than raw numbers or text. Once someone has seen a misleading graph, it’s hard to “unsee” the impression it leaves.</p>
+
+    <p>In business, this can lead to poor decisions — investing in the wrong product, misjudging performance, or cutting budgets in the wrong places. In public policy or media, misleading visuals can sway opinions, fuel misinformation, and erode trust.</p>
+
+    <p>That’s why ethical data visualization isn’t just a design issue — it’s a moral one. A chart isn’t decoration; it’s an argument. And arguments need to be honest.</p>
+
+    <h3>How to Spot (and Stop) Visual Lies</h3>
+    <ul>
+      <li><strong>Check the Axes:</strong> Always look where the y-axis starts and ends. If it doesn’t start at zero, ask why.</li>
+      <li><strong>Look at the Time Range:</strong> Does the chosen period fairly represent the trend?</li>
+      <li><strong>Compare Scales:</strong> If there are two y-axes, question whether they’re comparable.</li>
+      <li><strong>Seek Context:</strong> What’s missing? Are there data points not shown that might change the story?</li>
+      <li><strong>Trust but Verify:</strong> If a chart seems too dramatic, find the source data.</li>
+    </ul>
+
+    <p>And if you’re creating visuals, strive for transparency. Label axes clearly, use consistent scales, and annotate key points for clarity. The goal isn’t to make data look exciting — it’s to make it truthful and understandable.</p>
+
+    <h3>The Bottom Line</h3>
+    <p>Data visualization is storytelling, and every storyteller has a choice: to clarify or to confuse. Misleading charts may win attention in the short term, but honest ones build credibility in the long run.</p>
+
+    <p>Learning to spot and avoid visual manipulation is one of the most important skills for anyone working with data — not just analysts and scientists, but anyone making decisions based on numbers. When we design and interpret charts with integrity, we’re not just communicating data — we’re protecting truth.</p>
+
+    <div class="back-link">
+      <a href="index.html#blog">← Back to Home</a>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-container">
+      <p>© 2025 Bethany Owen — All Rights Reserved</p>
+      <p>
+        <a href="https://www.linkedin.com/in/bethany-c-owen/" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
