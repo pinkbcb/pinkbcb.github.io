@@ -221,3 +221,48 @@ footer a {
 .back-link a:hover {
   text-decoration: underline;
 }
+
+
+.blog-post-page {
+  max-width: 750px;
+  margin: 3rem auto;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.blog-post-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.blog-post-page h3 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.back-link {
+  margin-top: 2rem;
+}
+
+.back-link a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
