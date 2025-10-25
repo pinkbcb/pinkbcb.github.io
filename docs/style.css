@@ -271,15 +271,17 @@ footer a {
 
 
 
-h1 a {
-  color: black;           /* makes the link black */
-  text-decoration: none;  /* removes underline */
+h1 {
+  font-size: 2rem;      /* typical h1 size */
+  font-weight: bold;     /* keep it bold */
+  margin: 1rem 0;        /* spacing above and below */
+  color: black;          /* heading color */
 }
 
-h1 a:hover,
-h1 a:focus {
-  color: black;           /* stays black on hover/focus */
-  text-decoration: none;  /* no underline on hover */
+h1 a {
+  color: inherit;        /* makes the link use h1 color */
+  text-decoration: none; /* removes underline */
 }
+
 
 
