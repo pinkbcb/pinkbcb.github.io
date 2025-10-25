@@ -206,3 +206,18 @@ footer a {
     width: 100%;
   }
 }
+
+
+.read-more,
+.back-link a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.read-more:hover,
+.back-link a:hover {
+  text-decoration: underline;
+}
