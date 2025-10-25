@@ -266,3 +266,16 @@ footer a {
 .read-more:hover {
   text-decoration: underline;
 }
+
+
+h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.home-link {
+  text-decoration: none;
+  color: inherit;
+}
+
