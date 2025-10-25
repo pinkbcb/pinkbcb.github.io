@@ -287,5 +287,15 @@ h1 a:focus {
 }
 
 
+h1 a {
+  color: black;           /* makes the link black */
+  text-decoration: none;  /* removes underline */
+}
+
+h1 a:hover,
+h1 a:focus {
+  color: black;           /* stays black on hover/focus */
+  text-decoration: none;  /* no underline on hover */
+}
 
 
